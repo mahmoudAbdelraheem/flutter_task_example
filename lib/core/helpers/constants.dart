@@ -1,3 +1,5 @@
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+
 class Constants {
   Constants._();
 
@@ -57,6 +59,24 @@ class Constants {
     {
       'lable': 'نسبه التطبيق',
       'price': 15.0,
+    },
+  ];
+
+  static const List<Map<String, dynamic>> places = [
+    {
+      'place': 'جازان',
+      'image': 'assets/images/pngs/place1.png',
+      'location': LatLng(30.0333, 31.2333),
+    },
+    {
+      'place': 'الاحساء',
+      'image': 'assets/images/pngs/place2.png',
+      'location': LatLng(30.0370, 31.2400),
+    },
+    {
+      'place': 'الباحه',
+      'image': 'assets/images/pngs/place3.png',
+      'location': LatLng(30.0290, 31.2260),
     },
   ];
 }
